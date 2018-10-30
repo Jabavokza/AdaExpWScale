@@ -1,0 +1,17 @@
+<Config>
+  <DbLocation>ADAAMORN\SQLEXPRESS</DbLocation>
+  <User>sa</User>
+  <Password>P@ssw0rd</Password>
+  <DbName>POSSDB_TESTSAP</DbName>
+  <FileName1>ISHIDA.TXT</FileName1>
+  <FileName2>PRICE.TXT</FileName2>
+  <FileName3>ExMSg1.TXT</FileName3>
+  <FileName4>ExMSg2.TXT</FileName4>
+  <PathSQL1>D:\Phakin\AdaExpWScale\Release\ISHIDA.SQL</PathSQL1>
+  <PathSQL2>D:\Phakin\AdaExpWScale\Release\PRICE.SQL</PathSQL2>
+  <PathSQL3>D:\Phakin\AdaExpWScale\Release\ExMSg1.SQL</PathSQL3>
+  <PathSQL4>D:\Phakin\AdaExpWScale\Release\ExMSg2.SQL</PathSQL4>
+  <PathFile>C:\Export</PathFile>
+  <UserLogin>009</UserLogin>
+  <PwdLogin>009</PwdLogin>
+</Config>
