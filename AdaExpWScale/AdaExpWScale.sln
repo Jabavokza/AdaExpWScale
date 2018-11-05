@@ -22,4 +22,12 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {479FCF24-C20C-4B95-B914-AC1EC60F0215}
 	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SccProjectUniqueName1 = AdaExpWScale\\AdaExpWScale.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = AdaExpWScale\\
+	EndGlobalSection
 EndGlobal
