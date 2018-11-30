@@ -2,7 +2,7 @@
   <DbLocation>ADAAMORN\SQLEXPRESS</DbLocation>
   <User>sa</User>
   <Password>P@ssw0rd</Password>
-  <DbName>POSSDB_TESTSAP</DbName>
+  <DbName>POSSDB_SAP</DbName>
   <FileName1>ISHIDA.TXT</FileName1>
   <FileName2>PRICE.TXT</FileName2>
   <FileName3>ExMSg1.TXT</FileName3>

@@ -33,8 +33,9 @@ namespace AdaExpWScale
                     return;
                 }
 
-                tUser = cCNSP.SP_GEToDbConfigXml().Rows[0]["UserLogin"].ToString();
-                tPwd = cCNSP.SP_GEToDbConfigXml().Rows[0]["PwdLogin"].ToString();
+                var oLogin = cCNSP.SP_GEToDbConfigXml();
+                tUser = oLogin.Rows[0]["UserLogin"].ToString();
+                tPwd = oLogin.Rows[0]["PwdLogin"].ToString();
 
                 if (tUser == otbUserName.Text && tPwd == otbUserPassword.Text)
                 {

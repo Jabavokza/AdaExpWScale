@@ -311,19 +311,20 @@ namespace AdaExpWScale
         {
             try
             {
-                otbDbLocation.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["DbLocation"].ToString();
-                otbUserName.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["User"].ToString();
-                otbUserPassword.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["Password"].ToString();
-                ocbDbName.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["DbName"].ToString();
-                otbExportPath.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["PathFile"].ToString();
-                otbFileName1.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["FileName1"].ToString();
-                otbFileName2.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["FileName2"].ToString();
-                otbFileName3.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["FileName3"].ToString();
-                otbFileName4.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["FileName4"].ToString();
-                otbPathSQL1.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["PathSQL1"].ToString();
-                otbPathSQL2.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["PathSQL2"].ToString();
-                otbPathSQL3.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["PathSQL3"].ToString();
-                otbPathSQL4.Text = cCNSP.SP_GEToDbConfigXml().Rows[0]["PathSQL4"].ToString();
+                var oSetting = cCNSP.SP_GEToDbConfigXml();
+                otbDbLocation.Text = oSetting.Rows[0]["DbLocation"].ToString();
+                otbUserName.Text = oSetting.Rows[0]["User"].ToString();
+                otbUserPassword.Text = oSetting.Rows[0]["Password"].ToString();
+                ocbDbName.Text = oSetting.Rows[0]["DbName"].ToString();
+                otbExportPath.Text = oSetting.Rows[0]["PathFile"].ToString();
+                otbFileName1.Text = oSetting.Rows[0]["FileName1"].ToString();
+                otbFileName2.Text = oSetting.Rows[0]["FileName2"].ToString();
+                otbFileName3.Text = oSetting.Rows[0]["FileName3"].ToString();
+                otbFileName4.Text = oSetting.Rows[0]["FileName4"].ToString();
+                otbPathSQL1.Text = oSetting.Rows[0]["PathSQL1"].ToString();
+                otbPathSQL2.Text = oSetting.Rows[0]["PathSQL2"].ToString();
+                otbPathSQL3.Text = oSetting.Rows[0]["PathSQL3"].ToString();
+                otbPathSQL4.Text = oSetting.Rows[0]["PathSQL4"].ToString();
             }
             catch (Exception oEx)
             {
@@ -350,18 +351,15 @@ namespace AdaExpWScale
             }
             catch (Exception oEx)
             {
-                MessageBox.Show("wSetting : W_SETxFormateFile ///"+oEx.Message);
+                MessageBox.Show("wSetting : W_SETxFormateFile ///" + oEx.Message);
                 return null;
             }
-          
         }
-
         private void W_SETxDefaultFormateFile()
         {
             try
             {
-
-               var tFormateFile = cCNSP.SP_GEToDbConfigXml().Rows[0]["FormateFile"].ToString();
+                var tFormateFile = cCNSP.SP_GEToDbConfigXml().Rows[0]["FormateFile"].ToString();
                 if (tFormateFile.Equals("UTF-8"))
                 {
                     orbUTF8.Checked = true;
@@ -369,7 +367,7 @@ namespace AdaExpWScale
                 else if (tFormateFile.Equals("Windows-874 (ANSI)"))
                 {
                     orbWindows874.Checked = true;
-                }            
+                }
             }
             catch (Exception oEx)
             {

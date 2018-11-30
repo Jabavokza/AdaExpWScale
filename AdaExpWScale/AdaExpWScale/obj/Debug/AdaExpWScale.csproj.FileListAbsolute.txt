@@ -56,3 +56,15 @@ D:\Phakin\ProjectThemall\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExp
 D:\Phakin\ProjectThemall\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.csproj.CoreCompileInputs.cache
 D:\Phakin\ProjectThemall\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.exe
 D:\Phakin\ProjectThemall\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.pdb
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\bin\Debug\AdaExpWScale.exe
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\bin\Debug\AdaExpWScale.pdb
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.csprojAssemblyReference.cache
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.Properties.Resources.resources
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.wLogin.resources
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.wMain.resources
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.wProgressDlg.resources
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.wSetting.resources
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.csproj.GenerateResource.cache
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.csproj.CoreCompileInputs.cache
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.exe
+D:\Project\2018\AdaExpWScale\AdaExpWScale\AdaExpWScale\obj\Debug\AdaExpWScale.pdb
